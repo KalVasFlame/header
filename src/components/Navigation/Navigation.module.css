@@ -1,0 +1,23 @@
+.nav {
+  margin-right: auto;
+}
+
+.list {
+  display: flex;
+  padding-inline-start: 0;
+}
+
+@media screen and (min-width: 860) {
+  .list {
+    margin-left: 0;
+  }
+}
+
+.link {
+  list-style-type: none;
+  font-size: 14px;
+}
+
+.link + .link {
+  margin-left: 15px;
+}
