@@ -5,7 +5,9 @@ import s from "./Logo.module.css"
 const Logo = () => {
   return (
     <div>
-      <img className={s.logo} src={logo} alt="logo" />
+      <a href="https://www.microsoft.com/uk-ua/">
+        <img className={s.logo} src={logo} alt="logo" />
+      </a>
     </div>
   )
 }

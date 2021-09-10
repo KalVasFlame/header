@@ -33,7 +33,7 @@ const Header = () => {
       <div className={s.authNav}>
         {w > 860 ? (
           <IconButton>
-            {w > 1400 ? <span className={s.text}> Знайти</span> : ""}
+            {w > 1400 ? <span className={s.text}> Search</span> : ""}
             <Search className={s.search} width="16" />
           </IconButton>
         ) : (
@@ -41,11 +41,11 @@ const Header = () => {
         )}
 
         <IconButton>
-          {w > 1400 ? <span className={s.text}> Кошик</span> : ""}
+          {w > 1400 ? <span className={s.text}> Cart</span> : ""}
           <Cart className={s.cart} width="16" />
         </IconButton>
         <IconButton>
-          {w > 1400 ? <span className={s.text}> Вхід</span> : ""}
+          {w > 1400 ? <span className={s.text}> Sing in</span> : ""}
           <Login className={s.login} width="32" />
         </IconButton>
       </div>

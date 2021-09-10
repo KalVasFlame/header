@@ -1,8 +1,12 @@
 .nav {
   margin-right: auto;
+  display: flex;
+  align-items: baseline;
+  margin-top: 5px;
 }
 
 .list {
+  text-align: center;
   display: flex;
   padding-inline-start: 0;
 }
@@ -20,4 +24,22 @@
 
 .link + .link {
   margin-left: 15px;
+}
+
+.link a:hover {
+  border-bottom: 1px solid #000;
+}
+
+.mainLink {
+  font-weight: 700;
+  font-size: 20px;
+  margin-right: 25px;
+}
+
+.decor {
+  width: 2px;
+  height: 27px;
+  background-color: #000;
+  margin-right: 20px;
+  margin-top: 2px;
 }

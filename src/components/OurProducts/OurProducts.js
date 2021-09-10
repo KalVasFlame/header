@@ -4,7 +4,7 @@ const OurProducts = () => {
   return (
     <div>
       <a href="#">
-        <span className={s.ourProducts}>Усі продукти Microsoft</span>
+        <span className={s.ourProducts}>All Microsoft</span>
       </a>
     </div>
   )
